@@ -28,7 +28,7 @@
                         <div class="card-body text-center">
                             <div class="text-center">
                                 <div>
-                                    <img src="disc.poster" alt="disc.title" class="w-100">
+                                    <img :src="disc.poster" alt="disc.title" class="w-100">
                                 </div>
                                 <h2>
                                     {{ disc.title }}
@@ -53,7 +53,7 @@
 <!-- AXIOS -->
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <!-- JS -->
-<script scr='js/script.js'></script>
+<script src='js/script.js'></script>
 
 </body>
 </html>

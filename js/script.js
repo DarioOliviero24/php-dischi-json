@@ -12,6 +12,7 @@ createApp({
            .get('http://localhost/progetti/php-dischi-json/api.php')
            .then(res => {
             this.discs = res.data;
+            console.log(this.discs);
             
            });
             
